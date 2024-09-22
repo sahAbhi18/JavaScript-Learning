@@ -19,5 +19,29 @@ let booleanisLoggedIn = Boolean(isLoggedIn)
 
 let head = 45
 let stringhead = String(head)
-console.log(typeof(stringhead));
+//console.log(typeof(stringhead));
+
+/* ****************************************Operations***************************** */
+
+/*console.log("1"+3);
+console.log("1"+3+6);
+console.log(1+3+"9");
+console.log(1+"3"+8);
+*/
+
+/* let gameCounter = 100
+++gameCounter
+console.log(gameCounter);
+*/
+/* **************************POSTFIX OPERATION********************************** */
+// Postfix opertaion , firstly increment the value and then return the value before incrementing
+let a=5;
+let b= a++
+//console.log(a,b);
+
+/* ***************************PREFIX OPERATION************************************ */
+// Prefix operation, firstly return increment value and then return the incremnting value. 
+let a1 = 8
+let b1 = ++a
+//console.log(a,b);
 
