@@ -57,3 +57,27 @@ const myFunction = function(){
 // https://262.ecma-international.org/5.1/#sec-11.4.3
 
 console.log(typeof myFunction  );
+
+
+// **************************************************************************************
+
+// Stack(Primitive Data_Type),  Heap(Non-Primitive DataType)
+
+let collegeEmail = "2021bca108@axiscolleges.in"
+let personalEmail = collegeEmail
+personalEmail= "sahabhishekm@gmail.com"
+//console.log(personalEmail);
+//console.log(collegeEmail);
+ let userOne = {
+    email: "abhi1234@gmail.com",
+    upi: "abhi@ibl"
+
+ }
+let userTwo = userOne
+userTwo.email= "sahabahi123@gmail.com"
+console.log(userTwo.email);
+console.log(userOne.email);
+
+
+
+
