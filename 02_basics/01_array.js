@@ -37,3 +37,5 @@ console.log("B ", myArr);
 const myn2 = myArr.splice(1, 3)
 console.log("C ", myArr);
 console.log(myn2);
+/* Interview Question=> when you use slice mathod then your are are not change that array will same 
+as orginial array nut when you use splice method then your array will be manipulated. */

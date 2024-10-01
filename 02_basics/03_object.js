@@ -1,3 +1,4 @@
+// Object Literals
 let user = {
     firstName: "Abhishek",
     lastName: "Sah",
