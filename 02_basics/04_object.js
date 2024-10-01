@@ -54,5 +54,17 @@ const user = [
     email: "ashu@gmail.com",
 
 }];
-console.log(user[1].email);
+//console.log(user[1].email);
+//console.log(tinderUser);
+//console.log(Object.keys(tinderUser));
+//console.log(Object.values(tinderUser))
+//console.log(Object.entries(tinderUser));
 
+let course = {
+    courseName: "JavaScript",
+    price: "999",
+    courseInstractor: "Hitesh sir"
+}
+//console.log(course.courseInstractor);
+const {courseInstractor: CI} = course 
+console.log(CI);
